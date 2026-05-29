@@ -1,0 +1,23 @@
+{
+  "schema": "d1_receipt_v1",
+  "run_label": "fp16_kv_baseline",
+  "description": "fp16 KV cache baseline (no --fraqtl-* flags); reference for retrieval quality",
+  "base_model_hf_id": "mistralai/Mistral-7B-Instruct-v0.3",
+  "base_model_quant": "Q4_K_M",
+  "kv_cache_treatment": "fp16",
+  "cli_kv_flags": ["--cache-type-k f16", "--cache-type-v f16"],
+  "context_length": 131072,
+  "rope_scaling": "yarn",
+  "rope_scale": 4.0,
+  "yarn_orig_ctx": 32768,
+  "ubatch": 2048,
+  "flash_attention": true,
+  "vram_peak_mib": 22657,
+  "niah_5fact_score": 5,
+  "hardware": "NVIDIA H100 80GB SXM5 (CC 9.0)",
+  "cuda_toolkit": "12.4",
+  "upstream_pin": "b760272f1a25fcae065d827ce2cbcaa035597b02",
+  "n_independent_runs": 3,
+  "ts_locked": "2026-05-28T00:00:00Z",
+  "see_also": "methodology.md"
+}
