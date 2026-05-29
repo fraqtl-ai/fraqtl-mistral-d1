@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Upstream pin](https://img.shields.io/badge/upstream-b760272f-purple)](https://github.com/ggerganov/llama.cpp/commit/b760272f1a25fcae065d827ce2cbcaa035597b02)
-[![Demo: Mistral 7B v0.3](https://img.shields.io/badge/demo-Mistral--7B--v0.3-indigo)](https://huggingface.co/fraQtl/Mistral-7B-v0.3-fraqtl-sidecars)
+[![Demo: Mistral 7B v0.3](https://img.shields.io/badge/demo-Mistral--7B--v0.3-indigo)](https://huggingface.co/datasets/fraQtl/Mistral-7B-v0.3-fraqtl-sidecars)
 
 ## The result
 
